@@ -1,0 +1,33 @@
+{
+  "name": "Worker",
+  "type": "object",
+  "properties": {
+    "worker_name": {
+      "type": "string",
+      "description": "Name of the worker"
+    },
+    "location": {
+      "type": "string",
+      "description": "Worker's location"
+    },
+    "skill": {
+      "type": "string",
+      "enum": [
+        "Harvesting",
+        "Planting",
+        "General Labor"
+      ],
+      "description": "Primary skill of the worker"
+    },
+    "phone_number": {
+      "type": "string",
+      "description": "Contact phone number"
+    }
+  },
+  "required": [
+    "worker_name",
+    "location",
+    "skill",
+    "phone_number"
+  ]
+}
