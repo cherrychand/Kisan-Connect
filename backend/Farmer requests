@@ -1,0 +1,28 @@
+{
+  "name": "FarmerRequest",
+  "type": "object",
+  "properties": {
+    "farmer_name": {
+      "type": "string",
+      "description": "Name of the farmer"
+    },
+    "location": {
+      "type": "string",
+      "description": "Farm location"
+    },
+    "workers_needed": {
+      "type": "number",
+      "description": "Number of workers needed"
+    },
+    "phone_number": {
+      "type": "string",
+      "description": "Farmer's contact phone number"
+    }
+  },
+  "required": [
+    "farmer_name",
+    "location",
+    "workers_needed",
+    "phone_number"
+  ]
+}
